@@ -1,4 +1,4 @@
-# bankin-api-revolut
+# api-revolut
 
 Api revolut-b2b pour bankin. [WIP]
 Il s'agit d'un serveur qui permet de récupérer une liste de compte.
