@@ -69,8 +69,6 @@ function Revolut(superagent, clientsConfig, revolutConfig, jwt) {
   }
 
   function getAccounts() {
-    console.log(`${urlApi}accounts`);
-    console.log(`Bearer ${token}`);
     try {
       return superagent
         .get(`${urlApi}accounts`)
